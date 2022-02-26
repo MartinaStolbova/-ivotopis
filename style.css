@@ -14,6 +14,7 @@ header h1{
     background-color:#d4cca79f;
     margin: 0 auto;
 }
+
 #Martinafoto img {
     display:block;
     margin: 0px auto;
@@ -21,12 +22,15 @@ header h1{
     border-radius: 66%;
     height: 400px;
     border:2px solid chocolate;
-
+    position:relative;
+    top:10px;
 }
+
 main H2{
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
 }
+
 p {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif
@@ -36,20 +40,22 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     display:block;
     border:2px solid chocolate ;
-  
+
 }
 li{
     padding-bottom: 10px;
 }
+
 h3{
     text-decoration-line: underline;
 }
+
 .dovednosti ul{
     list-style-type: none;
-    border:2px solid chocolate ;
     border: none;
-    width: 1025px;
+    width: 1020px;
 } 
+
 .dovednosti ul li{
     background-color:#d4cca79f;
     border: 1px solid black;
@@ -58,8 +64,9 @@ h3{
     padding:3px;
     display: inline-block;
     width: 25%;
-
-
 }
-
-
+/*patička*/
+footer {
+    color:grey;
+    
+}
