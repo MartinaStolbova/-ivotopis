@@ -14,6 +14,9 @@ header h1{
     background-color:#d4cca79f;
     margin: 0 auto;
 }
+p{
+     font-weight: bold;
+    }
 
 #Martinafoto img {
     display:block;
@@ -25,7 +28,12 @@ header h1{
     position:relative;
     top:10px;
 }
-
+section{
+    background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url(images/tulip.png);
+    opacity: 0,1;
+    background-size:cover;
+    height:75vh;
+}
 main H2{
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
@@ -50,23 +58,32 @@ h3{
     text-decoration-line: underline;
 }
 
+.dovednosti{
+    text-align: center;
+}
 .dovednosti ul{
     list-style-type: none;
     border: none;
-    width: 1020px;
+    /*width: 1020px;*/
 } 
 
 .dovednosti ul li{
     background-color:#d4cca79f;
-    border: 1px solid black;
-    text-align: center;
-    border-radius:30p;
-    padding:3px;
+    border: 2px solid chocolate;
+    border-radius:30px;
+    padding:3px 5px;
     display: inline-block;
-    width: 25%;
+    /*width: 25%;*/
 }
 /*patička*/
 footer {
     color:grey;
     text-align: center;
+    background-color:#d4cca;
+}
+p span{
+    font-size: 1.2em;
+}
+p label{
+  list-style-image:url(images/telefon.gif);
 }
