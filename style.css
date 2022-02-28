@@ -30,20 +30,38 @@ p{
 }
 section{
     background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url(images/tulip.png);
-    opacity: 0,1;
-    background-size:cover;
+    /*opacity: 0,1;*/
+    /*background-size:cover;*/
     height:75vh;
 }
 main H2{
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
+        color:#fff;
 }
 
 p {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    color:floralwhite;
 }
 
+p a{
+    color: #fff; 
+    display:inline-block;  
+}
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    border:2px solid;
+    padding:5px;
+    font-weight: bold;
+    background:#112ba1;
+}
+.btn:hover{
+    background-color:#fff;
+    color:#112ba1;
+}
 ul {
     font-family: Arial, Helvetica, sans-serif;
     display:block;
