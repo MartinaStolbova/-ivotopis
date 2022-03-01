@@ -50,6 +50,9 @@ p a{
     color: #fff; 
     display:inline-block;  
     margin-top: -20px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    font-size: 20px;
 }
 .telefon img {
     height: 15px;
@@ -62,6 +65,7 @@ p a{
     display: inline-block;
     text-decoration: none;
     border:2px solid;
+    border-radius: 30%; ;
     padding:5px;
     font-weight: bold;
     background:#112ba1;
@@ -71,7 +75,6 @@ p a{
     color:#112ba1;
     transition: background 1.5s;
 }
-
 
 ul {
     font-family: Arial, Helvetica, sans-serif;
@@ -118,4 +121,10 @@ p label{
 }
 body{
     background-color:#d4cca79f;
+}
+
+#Kontakt2.strana{
+    display:block;
+    margin:0 auto;
+    text-align: center;
 }
