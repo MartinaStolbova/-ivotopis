@@ -51,7 +51,13 @@ p a{
     display:inline-block;  
     margin-top: -20px;
 }
+.telefon img {
+    height: 15px;
+}
 
+.telefon{
+    display: inline-block;
+}
 .btn {
     display: inline-block;
     text-decoration: none;
@@ -109,4 +115,7 @@ p span{
 }
 p label{
   list-style-image:url(images/telefon.gif);
+}
+#Kontakt2.strana{
+    background-color:#d4cca79f;
 }
