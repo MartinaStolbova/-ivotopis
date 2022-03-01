@@ -111,8 +111,9 @@ h3{
 footer {
     color:grey;
     text-align: center;
-    background-color:#d4cca;
+    background-color:#d4cca79f;
 }
+
 p span{
     font-size: 1.2em;
 }
@@ -124,7 +125,10 @@ body{
 }
 
 #Kontakt2.strana{
-    display:block;
-    margin:0 auto;
-    text-align: center;
+  text-align: center;
+  width: 100%;
+}
+.footer2{
+    position:absolute;
+    bottom:0;
 }
