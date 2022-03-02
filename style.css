@@ -44,6 +44,7 @@ p {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color:floralwhite;
+    margin-top:0;
 }
 
 p a{
@@ -125,10 +126,11 @@ body{
 }
 
 #Kontakt2.strana{
-  text-align: center;
+  display: inline-block;
   width: 100%;
 }
 .footer2{
     position:absolute;
     bottom:0;
+    width: 100%;
 }
