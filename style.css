@@ -124,10 +124,8 @@ p label{
 body{
     background-color:#d4cca79f;
 }
-
-#Kontakt2.strana{
-  display: inline-block;
-  width: 100%;
+.Kontakt{
+    text-align: center;
 }
 .footer2{
     position:absolute;
